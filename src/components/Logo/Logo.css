@@ -1,0 +1,11 @@
+.logo {
+    padding: 30px 10px 0px 45px;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    height: auto;
+    max-width: 500px;
+    padding-right: 50px;
+}

@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+    font-family: 'Syne Mono', monospace;
+    color: white;
+}
+
+a:hover {
+    color: darkred;
+    transform: translate(50%, 50%);
+    letter-spacing: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-weight: bold;
+    text-shadow:
+            20px 20px darkred;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.nav-item {
+    padding: 10px 10px 10px 10px;
+    font-size: 150%;
+}
+
+@media all and (min-width: 800px) {
+    .container {
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        flex-direction: row;
+    }
+}
